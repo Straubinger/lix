@@ -5,12 +5,11 @@ The lix.csv file contains the LIX of speeches given by the Danish Prime Minister
 LIX = A / B + (C * 100) / A, where
 
 A is the number of words,
-
 B is the number of sentences, and
 
 C is the number of long words (more than 6 letters).
 
-> 55 Very hard
+55 Very hard
 
 45-54
 
