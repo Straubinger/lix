@@ -12,4 +12,4 @@ C is the number of long words (more than 6 letters).
 
 
 Hey
-========
+=====
