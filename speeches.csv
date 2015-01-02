@@ -1,2 +1,4 @@
-year,PM_newyear,PM_parliament,Queen_newyear
-1995,33,48,,
+id,pollingfirm,year,month,day,party_a,party_b,party_c,party_f,party_i,party_o,party_v,party_oe,n
+1,Gallup,1957,6,28,39.6,7,16.4,,,,27.3,,
+2,Gallup,1957,7,28,38.1,6.7,16.8,,,,28.2,,
+3,Gallup,1957,8,28,39.9,6.8,16.5,,,,28.1,,
