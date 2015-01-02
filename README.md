@@ -9,3 +9,13 @@ A is the number of words,
 B is the number of sentences, and
 
 C is the number of long words (more than 6 letters).
+
+> 55 Very hard
+
+45-54
+
+35-44
+
+25-34
+
+<24
