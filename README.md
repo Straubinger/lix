@@ -9,7 +9,3 @@ A is the number of word,
 B is the number of sentences, and
 
 C is the number of long words (more than 6 letters).
-
-
-Hey
-=====
