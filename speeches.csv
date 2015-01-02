@@ -1,4 +1,63 @@
-year,pm_newyear,pm_parliament,queen_newyear
-1995,5,6,7
-1996,8,9,10
-1997,11,12,13
+year,pm,pm_parliament,pm_newyear,queen_newyear
+1953,Hans Hedetoft,59,,
+1954,Hans Hedetoft,57,,
+1955,H. C. Hansen,55,,
+1956,H. C. Hansen,55,,
+1957,H. C. Hansen,57,,
+1958,H. C. Hansen,58,,
+1959,H. C. Hansen,60,,
+1960,Viggo Kampman,58,,
+1961,Viggo Kampman,59,,
+1962,Jens Otto Krag,57,,
+1963,Jens Otto Krag,55,,
+1964,Jens Otto Krag,55,,
+1965,Jens Otto Krag,53,,
+1966,Jens Otto Krag,55,,
+1967,Jens Otto Krag,56,,
+1968,Hilmar Baunsgaard,59,,
+1969,Hilmar Baunsgaard,58,,
+1970,Hilmar Baunsgaard,55,,
+1971,Hilmar Baunsgaard,61,,
+1972,Jens Otto Krag,54,,49
+1973,Anker Jørgensen,53,,45
+1974,Poul Hartling,49,,47
+1975,Anker Jørgensen,50,,45
+1976,Anker Jørgensen,50,,43
+1977,Anker Jørgensen,53,,44
+1978,Anker Jørgensen,54,,40
+1979,Anker Jørgensen,58,,42
+1980,Anker Jørgensen,49,,47
+1981,Anker Jørgensen,52,,42
+1982,Poul Schlüter,48,,37
+1983,Poul Schlüter,50,,39
+1984,Poul Schlüter,50,,41
+1985,Poul Schlüter,42,,42
+1986,Poul Schlüter,48,,36
+1987,Poul Schlüter,48,,32
+1988,Poul Schlüter,48,,37
+1989,Poul Schlüter,49,,34
+1990,Poul Schlüter,47,,38
+1991,Poul Schlüter,52,,36
+1992,Poul Schlüter,46,,41
+1993,Poul Nyrup Rasmussen,45,,35
+1994,Poul Nyrup Rasmussen,50,,36
+1995,Poul Nyrup Rasmussen,48,33,39
+1996,Poul Nyrup Rasmussen,48,35,35
+1997,Poul Nyrup Rasmussen,45,33,41
+1998,Poul Nyrup Rasmussen,44,36,35
+1999,Poul Nyrup Rasmussen,41,35,36
+2000,Poul Nyrup Rasmussen,48,35,40
+2001,Poul Nyrup Rasmussen,44,37,40
+2002,Anders Fogh Rasmussen,40,39,39
+2003,Anders Fogh Rasmussen,39,37,36
+2004,Anders Fogh Rasmussen,40,36,40
+2005,Anders Fogh Rasmussen,39,35,39
+2006,Anders Fogh Rasmussen,41,37,40
+2007,Anders Fogh Rasmussen,44,41,40
+2008,Anders Fogh Rasmussen,41,37,39
+2009,Lars Løkke Rasmussen,38,35,37
+2010,Lars Løkke Rasmussen,37,38,38
+2011,Helle Thorning-Schmidt,37,35,39
+2012,Helle Thorning-Schmidt,34,32,38
+2013,Helle Thorning-Schmidt,35,30,35
+2014,Helle Thorning-Schmidt,34,29,34
