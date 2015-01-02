@@ -4,7 +4,7 @@ The lix.csv file contains the LIX of speeches given by the Danish Prime Minister
 
 LIX = A / B + (C * 100) / A, where
 
-A is the number of word,
+A is the number of words,
 
 B is the number of sentences, and
 
