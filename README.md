@@ -10,11 +10,10 @@ B is the number of sentences, and
 
 C is the number of long words (more than 6 letters).
 
-
-| LIX   | Difficulty |
-| ----- | ---------- |
-| <55   | Very hard  |
-| 45-54 | Hard       |
-| 35-44 | Moderate   |
-| 25-34 | Easy       |
-| <24   | Very easy  |
+| LIX   | Difficulty | Examples                     |
+| ----- | ---------- | ---------------------------- |
+| <55   | Very hard  | Academic papers, legal texts |
+| 45-54 | Hard       | Non-fiction, popular science |
+| 35-44 | Moderate   | Newspapers, magazines        |
+| 25-34 | Easy       | Fiction for adults, tabloids |
+| <24   | Very easy  | Fiction for children         |
