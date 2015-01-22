@@ -18,4 +18,4 @@ C is the number of long words (more than 6 letters).
 | 25-34 | Easy       | Fiction, tabloids                 |
 | <24   | Very easy  | Children's literature             |
 
-All of the speeches used to compute LIX except the speeches given at the opening of the Danish parliament can be found as txt files in their repspective folders.
+All of the speeches used to compute LIX except the speeches given at the opening of the Danish parliament can be found as txt files in their respective folders.
