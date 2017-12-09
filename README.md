@@ -1,6 +1,6 @@
 LIX of Danish, Swedish and Norwegian Speeches
 ========
-The lix.csv file contains LIX of speeches given by Danish, Swedish and Norwegian Prime Ministers at the opening of parliament. The New Year's speeches given by the King or Queen of Denmark, the King of Norway, the Danish Prime Minister and the Norwegian Prime Minister along with the Christmas speeches given by the King of Sweden are included as well. LIX is a measure of how difficult a text is to understand developed by Swedish scholar Carl-Hugo Björnsson. It is computed as follows:
+The lix.csv file contains LIX of speeches given by Danish, Swedish and Norwegian Prime Ministers at the opening of parliament. The New Year Address given by the King or Queen of Denmark, the King of Norway, the Danish Prime Minister and the Norwegian Prime Minister along with the Christmas Address given by the King of Sweden are included as well. LIX is a measure of how difficult a text is to understand developed by Swedish scholar Carl-Hugo Björnsson. It is computed as follows:
 
 LIX = A / B + (C * 100) / A, where
 
