@@ -19,3 +19,9 @@ C is the number of long words (more than 6 letters).
 | <24   | Very easy  | Children's literature             |
 
 All of the speeches used to compute LIX can be found as txt files in their respective folders.
+
+<img src="https://github.com/Straubinger/lix/blob/master/lix_openparl.png">
+
+<img src="https://github.com/Straubinger/lix/blob/master/lix_newyear_royal.png">
+
+<img src="https://github.com/Straubinger/lix/blob/master/lix_newyear_pm.png">
