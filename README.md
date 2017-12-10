@@ -22,8 +22,8 @@ All of the speeches used to compute LIX can be found as txt files in their respe
 
 <hr>
 
-<img src="link">
+<img src="https://github.com/Straubinger/lix/blob/master/lix_openparl.png">
 
-<img src="link">
+<img src="https://github.com/Straubinger/lix/blob/master/lix_newyear_royal.png">
 
-<img src="link">
+<img src="https://github.com/Straubinger/lix/blob/master/lix_newyear_pm.png">
