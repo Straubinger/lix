@@ -13,10 +13,10 @@ C is the number of long words (more than 6 letters).
 | LIX   | Difficulty | Examples                          |
 | ----- | ---------- | --------------------------------- |
 | >55   | Very hard  | Academic journals, legal texts    |
-| 45-54 | Hard       | Public documents, popular science |
+| 45-55 | Hard       | Public documents, popular science |
 | 35-44 | Moderate   | Newspapers, magazines             |
 | 25-34 | Easy       | Fiction, tabloids                 |
-| <24   | Very easy  | Children's literature             |
+| <25   | Very easy  | Children's literature             |
 
 All of the speeches used to compute LIX can be found as txt files in their respective folders.
 
