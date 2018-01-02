@@ -17,6 +17,8 @@ ggplot(subset(lix, type %in% c("openparl_dk", "openparl_no", "openparl_se")),
        aes(x = year, y = lix, colour = type)) +
   geom_point() +
   geom_smooth(se = FALSE) +
+  coord_cartesian(ylim=c(15, 65)) + 
+  scale_y_continuous(breaks=seq(15, 65, 10)) +
   theme(legend.position = "bottom", 
         legend.title = element_blank(),
         panel.grid.minor = element_blank()) +
@@ -37,6 +39,8 @@ ggplot(subset(lix, type %in% c("newyear_royal_dk", "xmas_royal_se", "newyear_roy
        aes(x = year, y = lix, colour = type)) +
   geom_point() +
   geom_smooth(se = FALSE) +
+  coord_cartesian(ylim=c(15, 65)) + 
+  scale_y_continuous(breaks=seq(15, 65, 10)) +
   theme(legend.position = "bottom", 
         legend.title = element_blank(),
         panel.grid.minor = element_blank()) +
@@ -57,6 +61,8 @@ ggplot(subset(lix, type %in% c("newyear_pm_dk", "newyear_pm_no")),
        aes(x = year, y = lix, colour = type)) +
   geom_point() +
   geom_smooth(se = FALSE) +
+  coord_cartesian(ylim=c(15, 45)) + 
+  scale_y_continuous(breaks=seq(15, 45, 10)) +
   theme(legend.position = "bottom", 
         legend.title = element_blank(),
         panel.grid.minor = element_blank()) +
