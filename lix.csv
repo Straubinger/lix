@@ -1,4 +1,4 @@
-year,openparl_dk,openparl_se,openparl_no,newyear_pm_dk,newyear_pm_no,newyear_royal_dk,newyear_royal_no,xmas_royal_se,left_dk,left_se,left_no,left_newyear_dk,left_newyear_no
+year,openparl_dk,openparl_se,openparl_no,newyear_pm_dk,newyear_pm_no,newyear_royal_dk,newyear_royal_no,xmas_royal_se,left_openparl_dk,left_openparl_se,left_openparl_no,left_newyear_dk,left_newyear_no
 1946,62,,,,,37,,,0,,,,
 1947,63,,,,,44,,,0,,,,
 1948,59,,,,,37,,,1,,,,
@@ -71,4 +71,5 @@ year,openparl_dk,openparl_se,openparl_no,newyear_pm_dk,newyear_pm_no,newyear_roy
 2015,32,43,45,24,31,31,32,36,0,1,0,1,0
 2016,31,45,42,29,32,32,34,33,0,1,0,0,0
 2017,32,40,43,26,32,33,33,34,0,1,0,0,0
-2018,30,,45,29,30,,,,0,,0,0,0
+2018,30,,45,29,30,30,29,37,0,,0,0,0
+2019,,,,27,30,,,,,,,0,0
