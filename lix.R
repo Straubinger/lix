@@ -1,19 +1,14 @@
 # Load packages and dataset ----
-
 library(tidyverse)
 library(RCurl)
 library(hrbrthemes)
 
 lix <- read.csv(text=getURL("https://raw.githubusercontent.com/Straubinger/lix/master/lix.csv"))
 
-
 # Convert data from wide to long format ----
-
-lix <- gather(lix, type, lix, openparl_dk:newyear_royal_no, factor_key = TRUE)
-
+lix <- gather(lix, type, lix, openparl_dk:xmas_royal_se, factor_key = TRUE)
 
 # Opening of Parliament Speeches delivered by Prime Ministers ----
-
 p1 <- ggplot(subset(lix, type %in% c("openparl_dk", "openparl_no", "openparl_se")), 
        aes(x = year, y = lix, colour = type)) +
   geom_point() +
@@ -37,7 +32,6 @@ dev.off()
 
 
 # Royal New Year Addresses and Christmas Addresses 
-
 p2 <- ggplot(subset(lix, type %in% c("newyear_royal_dk", "xmas_royal_se", "newyear_royal_no")), 
        aes(x = year, y = lix, colour = type)) +
   geom_point() +
@@ -52,7 +46,7 @@ p2 <- ggplot(subset(lix, type %in% c("newyear_royal_dk", "xmas_royal_se", "newye
                       values = c("red", "blue", "forestgreen"),
                       labels = c("Denmark (New Year)", "Sweden (Christmas)", "Norway (New Year)")) +
   labs(y = "LIX", 
-       title ="LIX of Royal New Year or Christmas Addresses", 
+       title ="LIX of Royal New Year and Christmas Addresses", 
        caption = "Data: github.com/straubinger/lix")
 
 png("lix_newyear_royal.png", width = 1344, height = 960, units = "px", res = 150)
@@ -60,7 +54,6 @@ plot(p2)
 dev.off()
 
 # New Year Addresses delivered by Prime Ministers
-
 p3 <- ggplot(subset(lix, type %in% c("newyear_pm_dk", "newyear_pm_no")), 
        aes(x = year, y = lix, colour = type)) +
   geom_point() +
