@@ -31,7 +31,7 @@ p1 <- ggplot(subset(lix, type %in% c("openparl_dk", "openparl_no", "openparl_se"
        title ="LIX of speeches delivered by Prime Ministers at opening of parliament", 
        caption = "Data: github.com/straubinger/lix")
 
-png("lix_openparl.png", width = 1344, height = 960, units = "px", res = 140)
+png("lix_openparl.png", width = 1344, height = 960, units = "px", res = 150)
 plot(p1)
 dev.off()
 
@@ -55,7 +55,7 @@ p2 <- ggplot(subset(lix, type %in% c("newyear_royal_dk", "xmas_royal_se", "newye
        title ="LIX of Royal New Year or Christmas Addresses", 
        caption = "Data: github.com/straubinger/lix")
 
-png("lix_newyear_royal.png", width = 1344, height = 960, units = "px", res = 140)
+png("lix_newyear_royal.png", width = 1344, height = 960, units = "px", res = 150)
 plot(p2)
 dev.off()
 
@@ -80,6 +80,6 @@ p3 <- ggplot(subset(lix, type %in% c("newyear_pm_dk", "newyear_pm_no")),
        title ="LIX of New Year Addresses delivered by Prime Ministers", 
        caption = "Data: github.com/straubinger/lix")
 
-png("lix_newyear_pm.png", width = 1344, height = 960, units = "px", res = 140)
+png("lix_newyear_pm.png", width = 1344, height = 960, units = "px", res = 150)
 plot(p3)
 dev.off()
