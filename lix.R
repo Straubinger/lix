@@ -1,77 +1,85 @@
-# Load packages and dataset
+# Load packages and dataset ----
 
 library(tidyverse)
+library(RCurl)
+library(hrbrthemes)
 
-lix <- read.csv("lix.csv")
+lix <- read.csv(text=getURL("https://raw.githubusercontent.com/Straubinger/lix/master/lix.csv"))
 
 
-# Convert data from wide to long
+# Convert data from wide to long format ----
 
 lix <- gather(lix, type, lix, openparl_dk:newyear_royal_no, factor_key = TRUE)
 
 
-# Fig. 1 PM opening of parliament
+# Opening of Parliament Speeches delivered by Prime Ministers ----
 
-ggplot(subset(lix, type %in% c("openparl_dk", "openparl_no", "openparl_se")), 
+p1 <- ggplot(subset(lix, type %in% c("openparl_dk", "openparl_no", "openparl_se")), 
        aes(x = year, y = lix, colour = type)) +
   geom_point() +
   geom_smooth(se = FALSE) +
-  coord_cartesian(ylim=c(15, 65)) + 
-  scale_y_continuous(breaks=seq(15, 65, 10)) +
-  theme(legend.position = "bottom", 
-        legend.title = element_blank(),
-        panel.grid.minor = element_blank()) +
+  coord_cartesian(ylim=c(25, 65)) + 
+  scale_y_continuous(breaks=seq(25, 65, 10)) +
+  theme_ipsum_rc() +
+  theme(legend.title = element_blank(),
+        axis.title.x = element_blank(),
+        legend.position = "bottom") +
   scale_colour_manual(breaks = c("openparl_dk", "openparl_se", "openparl_no"),
                       values = c("red", "blue", "forestgreen"),
-                      labels = c("Danmark", "Sverige", "Norge")) +
-  labs(x = "",
-       y = "Lixtal", 
-       title ="LIX for statsministerens åbningstaler", 
+                      labels = c("Denmark", "Sweden", "Norway")) +
+  labs(y = "LIX", 
+       title ="LIX of speeches delivered by Prime Ministers at opening of parliament", 
        caption = "Data: github.com/straubinger/lix")
 
-ggsave("lix_openparl.png", height = 5, width = 6, dpi = 1000)
+png("lix_openparl.png", width = 1344, height = 960, units = "px", res = 140)
+plot(p1)
+dev.off()
 
 
-# Fig. 2 Royal New Year Address
+# Royal New Year Addresses and Christmas Addresses 
 
-ggplot(subset(lix, type %in% c("newyear_royal_dk", "xmas_royal_se", "newyear_royal_no")), 
+p2 <- ggplot(subset(lix, type %in% c("newyear_royal_dk", "xmas_royal_se", "newyear_royal_no")), 
        aes(x = year, y = lix, colour = type)) +
   geom_point() +
   geom_smooth(se = FALSE) +
-  coord_cartesian(ylim=c(15, 65)) + 
-  scale_y_continuous(breaks=seq(15, 65, 10)) +
+  coord_cartesian(ylim=c(25, 65)) + 
+  scale_y_continuous(breaks=seq(25, 65, 10)) +
+  theme_ipsum_rc() +
   theme(legend.position = "bottom", 
         legend.title = element_blank(),
-        panel.grid.minor = element_blank()) +
+        axis.title.x = element_blank()) +
   scale_colour_manual(breaks = c("newyear_royal_dk", "xmas_royal_se", "newyear_royal_no"),
                       values = c("red", "blue", "forestgreen"),
-                      labels = c("Danmark", "Sverige", "Norge")) +
-  labs(x = "",
-       y = "Lixtal", 
-       title ="LIX for royale nytårs- eller juletaler", 
+                      labels = c("Denmark (New Year)", "Sweden (Christmas)", "Norway (New Year)")) +
+  labs(y = "LIX", 
+       title ="LIX of Royal New Year or Christmas Addresses", 
        caption = "Data: github.com/straubinger/lix")
 
-ggsave("lix_newyear_royal.png", height = 5, width = 6, dpi = 1000)
+png("lix_newyear_royal.png", width = 1344, height = 960, units = "px", res = 140)
+plot(p2)
+dev.off()
 
+# New Year Addresses delivered by Prime Ministers
 
-# Fig. 3 PM New Year Address
-
-ggplot(subset(lix, type %in% c("newyear_pm_dk", "newyear_pm_no")), 
+p3 <- ggplot(subset(lix, type %in% c("newyear_pm_dk", "newyear_pm_no")), 
        aes(x = year, y = lix, colour = type)) +
   geom_point() +
   geom_smooth(se = FALSE) +
-  coord_cartesian(ylim=c(15, 45)) + 
-  scale_y_continuous(breaks=seq(15, 45, 10)) +
+  coord_cartesian(ylim=c(25, 45)) + 
+  scale_y_continuous(breaks=seq(25, 45, 10)) +
+  theme_ipsum_rc() +
   theme(legend.position = "bottom", 
         legend.title = element_blank(),
-        panel.grid.minor = element_blank()) +
+        axis.title.x = element_blank()) +
   scale_colour_manual(breaks = c("newyear_pm_dk", "newyear_pm_no"),
                       values = c("Red", "forestgreen"),
-                      labels = c("Danmark", "Norge")) +
+                      labels = c("Denmark", "Norway")) +
   xlim(1985, NA) +
   labs(x = "",
        y = "Lixtal", 
-       title ="LIX for statsministerens nytårstaler", 
+       title ="LIX of New Year Addresses delivered by Prime Ministers", 
        caption = "Data: github.com/straubinger/lix")
 
-ggsave("lix_newyear_pm.png", height = 5, width = 6, dpi = 1000)
+png("lix_newyear_pm.png", width = 1344, height = 960, units = "px", res = 140)
+plot(p3)
+dev.off()
