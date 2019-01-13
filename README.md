@@ -41,7 +41,7 @@ The `lix.csv` data file consists of the following variables:
 
 All of the speeches used to compute LIX can be found as txt files in their respective folders. All speeches delivered by Prime Ministers have the initials of the Prime Minister delivering the speech as part of the filename together with the year the speech was delivered. E.g. the New Year Address delivered in 2001 by then Prime Minister of Denmark Poul Nyrup Rasmussen is named 2001PNR.
 
-The `lix.R` produces the plots below.
+The `lix.R` file produces the plots below.
 
 <hr>
 
