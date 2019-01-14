@@ -3,7 +3,7 @@ LIX of Danish, Swedish and Norwegian Speeches
 
 ### Description
 
-Collection of calculated LIX of speeches delivered by Danish, Swedish and Norwegian Prime Ministers at the opening of parliament, New Year Adresses delivered by the King or Queen of Denmark, the King of Norway, the Prime Minister of Denmark and the Prime Minister of Norway and Christmas Adresses delivered by the King of Sweden.
+Collection of calculated LIX of speeches delivered by Danish, Swedish and Norwegian Prime Ministers at the opening of parliament, New Year Addresses delivered by the King or Queen of Denmark, the King of Norway, the Prime Minister of Denmark and the Prime Minister of Norway and Christmas Addresses delivered by the King of Sweden.
 
 ### What is LIX?
 
@@ -31,13 +31,13 @@ The `lix.csv` data file consists of the following variables:
 
 - `year` = The year the speech was delivered
 - `open_parl_dk` = LIX of speeches delivered by the Prime Minister of Denmark at the opening of parliament
-- `open_parl_se` = LIX of speeches delivered by the Prime Minister of Sweden at opening of parliament
-- `open_parl_no`= LIX of speeches delivered by the Prime Minister of Norwegian at opening of parliament
+- `open_parl_se` = LIX of speeches delivered by the Prime Minister of Sweden at the opening of parliament
+- `open_parl_no`= LIX of speeches delivered by the Prime Minister of Norway at the opening of parliament
 - `newyear_pm_dk` = LIX of New Year Addresses delivered by the Prime Minister of Denmark
-- `newyear_pm_no` = LIX of New Year Addresses delivered by the Prime Minister of Denmark
+- `newyear_pm_no` = LIX of New Year Addresses delivered by the Prime Minister of Norway
 - `newyear_royal_dk` = LIX of New Year Addresses delivered by the King or Queen of Denmark
 - `newyear_royal_no` = LIX of New Year Addresses delivered by the King of Norway
-- `xmas_royal_se` = LIX of Christmans Addresses delivered by the King of Swdeden
+- `xmas_royal_se` = LIX of Christmas Addresses delivered by the King of Sweden
 
 All of the speeches used to compute LIX can be found as txt files in their respective folders. All speeches delivered by Prime Ministers have the initials of the Prime Minister delivering the speech as part of the filename together with the year the speech was delivered. E.g. the New Year Address delivered in 2001 by then Prime Minister of Denmark Poul Nyrup Rasmussen is named 2001PNR.
 
