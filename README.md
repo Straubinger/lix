@@ -42,7 +42,7 @@ The `lix.csv` data file consists of the following variables:
 The following command will load the data into R:
 
 ``` R
-lix <- read.csv(text=getURL("https://raw.githubusercontent.com/Straubinger/lix/master/lix.csv"))
+read.csv(text=RCurl::getURL("https://raw.githubusercontent.com/Straubinger/lix/master/lix.csv"))
 ```
 
 All of the speeches used to compute LIX can be found as txt files in their respective folders. All speeches delivered by Prime Ministers have the initials of the Prime Minister delivering the speech as part of the filename together with the year the speech was delivered. E.g. the New Year Address delivered in 2001 by then Prime Minister of Denmark Poul Nyrup Rasmussen is named 2001PNR.
