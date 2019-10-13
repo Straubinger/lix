@@ -40,13 +40,3 @@ The `lix.csv` data file consists of the following variables:
 - `xmas_royal_se` = LIX of Christmas Addresses delivered by the King of Sweden
 
 All of the speeches used to compute LIX can be found as txt files in their respective folders. All speeches delivered by Prime Ministers have the initials of the Prime Minister delivering the speech as part of the filename together with the year the speech was delivered. E.g. the New Year Address delivered in 2001 by then Prime Minister of Denmark Poul Nyrup Rasmussen is named 2001PNR.
-
-The `lix.R` file produces the plots below.
-
-<hr>
-
-<img src="https://github.com/Straubinger/lix/blob/master/lix_openparl.png">
-
-<img src="https://github.com/Straubinger/lix/blob/master/lix_newyear_royal.png">
-
-<img src="https://github.com/Straubinger/lix/blob/master/lix_newyear_pm.png">
