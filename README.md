@@ -29,15 +29,12 @@ C is the number of long words (more than 6 letters).
 
 The `lix.csv` data file consists of the following variables:
 
-- `year` = The year the speech was delivered
-- `open_parl_dk` = LIX of speeches delivered by the Prime Minister of Denmark at the opening of parliament
-- `open_parl_se` = LIX of speeches delivered by the Prime Minister of Sweden at the opening of parliament
-- `open_parl_no`= LIX of speeches delivered by the Prime Minister of Norway at the opening of parliament
-- `newyear_pm_dk` = LIX of New Year Addresses delivered by the Prime Minister of Denmark
-- `newyear_pm_no` = LIX of New Year Addresses delivered by the Prime Minister of Norway
-- `newyear_royal_dk` = LIX of New Year Addresses delivered by the King or Queen of Denmark
-- `newyear_royal_no` = LIX of New Year Addresses delivered by the King of Norway
-- `xmas_royal_se` = LIX of Christmas Addresses delivered by the King of Sweden
+- `year` = Year the speech was delivered
+- `date` = Date the speech was delivered
+- `country` = Country in which the speech was delivered (Denmark, Sweden, Norway)
+- `occasion` = Occasion of the speech (Opening of Parliament, New Year, Christmas)
+- `speaker` = Role of the speaker (Prime Minister, Monarch)
+- `lix` = LIX score of the speech
 
 The following command will load the data into R:
 
