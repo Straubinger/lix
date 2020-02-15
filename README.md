@@ -30,7 +30,7 @@ C is the number of long words (more than 6 letters).
 The `lix.csv` data file consists of the following variables:
 
 - `year` = Year the speech was delivered
-- `date` = Date the speech was delivered
+- `date` = Date the speech was delivered, format: yyyy-mm-dd
 - `country` = Country in which the speech was delivered (Denmark, Sweden, Norway)
 - `occasion` = Occasion of the speech (Opening of Parliament, New Year, Christmas)
 - `speaker` = Role of the speaker (Prime Minister, Monarch)
