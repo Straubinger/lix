@@ -36,6 +36,7 @@ year,date,country,occasion,speaker_role,speaker_name,lix
 2019,2019-01-01,Denmark,New Year,Prime Minister,Lars Løkke Rasmussen,27
 2020,2020-01-01,Denmark,New Year,Prime Minister,Mette Frederiksen,26
 2021,2021-01-01,Denmark,New Year,Prime Minister,Mette Frederiksen,28
+2022,2022-01-01,Denmark,New Year,Prime Minister,Mette Frederiksen,29
 1990,1990-01-01,Norway,New Year,Prime Minister,Jan Peder Syse,35
 1991,1991-01-01,Norway,New Year,Prime Minister,Gro Harlem Brundtland,35
 1992,1992-01-01,Norway,New Year,Prime Minister,Gro Harlem Brundtland,37
@@ -68,6 +69,7 @@ year,date,country,occasion,speaker_role,speaker_name,lix
 2019,2019-01-01,Norway,New Year,Prime Minister,Erna Solberg,30
 2020,2020-01-01,Norway,New Year,Prime Minister,Erna Solberg,29
 2021,2021-01-01,Norway,New Year,Prime Minister,Erna Solberg,27
+2022,2022-01-01,Norway,New Year,Prime Minister,Jonas Gahr Støre,31
 1946,1946-12-31,Denmark,New Year,Monarch,Christian X,37
 1947,1947-12-31,Denmark,New Year,Monarch,Christian X,44
 1948,1948-12-31,Denmark,New Year,Monarch,Frederik IX,37
