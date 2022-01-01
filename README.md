@@ -33,7 +33,8 @@ The `lix.csv` data file consists of the following variables:
 - `date` = Date the speech was delivered, format: yyyy-mm-dd
 - `country` = Country in which the speech was delivered (Denmark, Sweden, Norway)
 - `occasion` = Occasion of the speech (Opening of Parliament, New Year, Christmas)
-- `speaker` = Role of the speaker (Prime Minister, Monarch)
+- `speaker_role` = Role of the speaker (Prime Minister, Monarch)
+- `speaker_name` = Name of the speaker
 - `lix` = LIX score of the speech
 
 The following command will load the data into R:
