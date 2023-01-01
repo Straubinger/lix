@@ -146,6 +146,7 @@ year,date,country,occasion,speaker_role,speaker_name,lix
 2019,2019-12-31,Denmark,New Year,Monarch,Margrethe II,29
 2020,2020-12-31,Denmark,New Year,Monarch,Margrethe II,34
 2021,2021-12-31,Denmark,New Year,Monarch,Margrethe II,34
+2022,2022-12-31,Denmark,New Year,Monarch,Margrethe II,34
 1954,1954-12-31,Norway,New Year,Monarch,Haakon VII,48
 1955,1955-12-31,Norway,New Year,Monarch,Haakon VII,41
 1956,1956-12-31,Norway,New Year,Monarch,Olav V,46
@@ -364,6 +365,7 @@ year,date,country,occasion,speaker_role,speaker_name,lix
 2019,2019-09-10,Sweden,Opening of Parliament,Prime Minister,Stefan Löfven,46
 2020,2020-09-08,Sweden,Opening of Parliament,Prime Minister,Stefan Löfven,44
 2021,2021-09-14,Sweden,Opening of Parliament,Prime Minister,Stefan Löfven,47
+2022,2022-10-18,Sweden,Opening of Parliament,Prime Minister,Ulf Kristersson,47
 1998,1998-12-25,Sweden,Christmas,Monarch,Carl Gustav,42
 1999,1999-12-25,Sweden,Christmas,Monarch,Carl Gustav,44
 2000,2000-12-25,Sweden,Christmas,Monarch,Carl Gustav,44
@@ -388,3 +390,4 @@ year,date,country,occasion,speaker_role,speaker_name,lix
 2019,2019-12-25,Sweden,Christmas,Monarch,Carl Gustav,37
 2020,2020-12-25,Sweden,Christmas,Monarch,Carl Gustav,29
 2021,2021-12-25,Sweden,Christmas,Monarch,Carl Gustav,36
+2022,2022-12-25,Sweden,Christmas,Monarch,Carl Gustav,33
