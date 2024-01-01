@@ -38,6 +38,7 @@ year,date,country,occasion,speaker_role,speaker_name,lix
 2021,2021-01-01,Denmark,New Year,Prime Minister,Mette Frederiksen,28
 2022,2022-01-01,Denmark,New Year,Prime Minister,Mette Frederiksen,29
 2023,2023-01-01,Denmark,New Year,Prime Minister,Mette Frederiksen,27
+2024,2024-01-01,Denmark,New Year,Prime Minister,Mette Frederiksen,29
 1990,1990-01-01,Norway,New Year,Prime Minister,Jan Peder Syse,35
 1991,1991-01-01,Norway,New Year,Prime Minister,Gro Harlem Brundtland,35
 1992,1992-01-01,Norway,New Year,Prime Minister,Gro Harlem Brundtland,37
@@ -72,6 +73,7 @@ year,date,country,occasion,speaker_role,speaker_name,lix
 2021,2021-01-01,Norway,New Year,Prime Minister,Erna Solberg,27
 2022,2022-01-01,Norway,New Year,Prime Minister,Jonas Gahr Støre,31
 2023,2023-01-01,Norway,New Year,Prime Minister,Jonas Gahr Støre,29
+2024,2024-01-01,Norway,New Year,Prime Minister,Jonas Gahr Støre,31
 1946,1946-12-31,Denmark,New Year,Monarch,Christian X,37
 1947,1947-12-31,Denmark,New Year,Monarch,Christian X,44
 1948,1948-12-31,Denmark,New Year,Monarch,Frederik IX,37
@@ -149,6 +151,7 @@ year,date,country,occasion,speaker_role,speaker_name,lix
 2020,2020-12-31,Denmark,New Year,Monarch,Margrethe II,34
 2021,2021-12-31,Denmark,New Year,Monarch,Margrethe II,34
 2022,2022-12-31,Denmark,New Year,Monarch,Margrethe II,34
+2023,2023-12-31,Denmark,New Year,Monarch,Margrethe II,31
 1954,1954-12-31,Norway,New Year,Monarch,Haakon VII,48
 1955,1955-12-31,Norway,New Year,Monarch,Haakon VII,41
 1956,1956-12-31,Norway,New Year,Monarch,Olav V,46
@@ -218,6 +221,7 @@ year,date,country,occasion,speaker_role,speaker_name,lix
 2020,2020-12-31,Norway,New Year,Monarch,Harald V,27
 2021,2021-12-31,Norway,New Year,Monarch,Harald V,30
 2022,2022-12-31,Norway,New Year,Monarch,Harald V,27
+2023,2023-12-31,Norway,New Year,Monarch,Harald V,26
 1946,1946-10-01,Denmark,Opening of Parliament,Prime Minister,Knud Kristensen,62
 1947,1947-10-07,Denmark,Opening of Parliament,Prime Minister,Knud Kristensen,63
 1948,1948-10-05,Denmark,Opening of Parliament,Prime Minister,Hans Hedtoft,59
@@ -397,3 +401,4 @@ year,date,country,occasion,speaker_role,speaker_name,lix
 2020,2020-12-25,Sweden,Christmas,Monarch,Carl Gustav,29
 2021,2021-12-25,Sweden,Christmas,Monarch,Carl Gustav,36
 2022,2022-12-25,Sweden,Christmas,Monarch,Carl Gustav,33
+2023,2023-12-25,Sweden,Christmas,Monarch,Carl Gustav,33
