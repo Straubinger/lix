@@ -300,6 +300,7 @@ year,date,country,occasion,speaker_role,speaker_name,lix
 2021,2021-10-05,Denmark,Opening of Parliament,Prime Minister,Mette Frederiksen,32
 2022,2022-10-04,Denmark,Opening of Parliament,Prime Minister,Mette Frederiksen,29
 2023,2023-10-03,Denmark,Opening of Parliament,Prime Minister,Mette Frederiksen,29
+2024,2024-10-01,Denmark,Opening of Parliament,Prime Minister,Mette Frederiksen,30
 1997,1997-10-09,Norway,Opening of Parliament,Prime Minister,Thorbjørn Jagland,52
 1998,1998-10-02,Norway,Opening of Parliament,Prime Minister,Kjell Magne Bondevik,54
 1999,1999-10-02,Norway,Opening of Parliament,Prime Minister,Kjell Magne Bondevik,54
@@ -327,6 +328,7 @@ year,date,country,occasion,speaker_role,speaker_name,lix
 2021,2021-10-11,Norway,Opening of Parliament,Prime Minister,Erna Solberg,46
 2022,2022-10-03,Norway,Opening of Parliament,Prime Minister,Jonas Gahr Støre,45
 2023,2023-10-03,Norway,Opening of Parliament,Prime Minister,Jonas Gahr Støre,43
+2024,2024-10-02,Norway,Opening of Parliament,Prime Minister,Jonas Gahr Støre,42
 1975,1975-10-15,Sweden,Opening of Parliament,Prime Minister,Oluf Palme,52
 1976,1976-10-08,Sweden,Opening of Parliament,Prime Minister,Thorbjörn Fälldin,52
 1977,1977-10-04,Sweden,Opening of Parliament,Prime Minister,Thorbjörn Fälldin,52
@@ -376,6 +378,7 @@ year,date,country,occasion,speaker_role,speaker_name,lix
 2021,2021-09-14,Sweden,Opening of Parliament,Prime Minister,Stefan Löfven,47
 2022,2022-10-18,Sweden,Opening of Parliament,Prime Minister,Ulf Kristersson,47
 2023,2023-09-12,Sweden,Opening of Parliament,Prime Minister,Ulf Kristersson,46
+2024,2024-09-10,Sweden,Opening of Parliament,Prime Minister,Ulf Kristersson,44
 1998,1998-12-25,Sweden,Christmas,Monarch,Carl Gustav,42
 1999,1999-12-25,Sweden,Christmas,Monarch,Carl Gustav,44
 2000,2000-12-25,Sweden,Christmas,Monarch,Carl Gustav,44
