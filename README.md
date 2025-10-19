@@ -25,6 +25,8 @@ C is the number of long words (more than 6 letters).
 | 25-34 | Easy       | Fiction, tabloids                 |
 | <25   | Very easy  | Children's literature             |
 
+This online LIX calculator has been used: https://www.nielsgamborg.dk/indhold/lixberegner.htm
+
 ### Repository content
 
 The `lix.csv` data file consists of the following variables:
